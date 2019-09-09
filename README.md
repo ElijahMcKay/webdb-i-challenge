@@ -6,7 +6,7 @@
 - Writing Basic SQL Queries
 - Writing Basic Queries using Knex.js
 
-## Assignment
+## Assignment 
 
 For this lab you will:
 
