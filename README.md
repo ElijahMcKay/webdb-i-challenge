@@ -6,7 +6,7 @@
 - Writing Basic SQL Queries
 - Writing Basic Queries using Knex.js
 
-## Assignment
+## Assignment 
 
 For this lab you will:
 
@@ -17,7 +17,7 @@ For this lab you will:
 
 Visit [SQL Try Editor at W3Schools.com](https://www.w3schools.com/Sql/tryit.asp?filename=trysql_select_top) using the **Google Chrome (or Chromium if you use Linux) browser** and write _SQL queries_ for the following requirements:
 
-- find all customers with postal code 1010. Returns 3 records.
+- find all customers with postal code 1010. Returns 3 records. 
 - find the phone number for the supplier with the id 11. Should be (010) 9984510.
 - list first 10 orders placed, sorted descending by the order date. The order with date 1997-02-12 should be at the top.
 - find all customers that live in London, Madrid, or Brazil. Returns 18 records.
@@ -29,7 +29,7 @@ Visit [SQL Try Editor at W3Schools.com](https://www.w3schools.com/Sql/tryit.asp?
 ### Write Accounts API
 
 - Write CRUD endpoints for the `accounts` resource. Use the `db` object imported from `data/dbConfig.js` for database access via `knex`.
-- Manually test your endpoints with a REST client like `Insomnia` or `Postman` to check they are working as expected.
+- Manually test your endpoints with a REST client like `Insomnia` or `Postman` to check they are working as expected. 
 
 #### Accounts Schema
 
