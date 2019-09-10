@@ -8,21 +8,24 @@ server.use(express.json());
 
 const accounts = require('./seeds/accounts'); 
 
-server.get('/', (req, res) => {
 
+
+
+router.get('/accounts', (req, res) => {
+    res.status(200).json({ api: 'up' }) 
 })
 
-server.post('/', (req, res) => {
+// router.post('/accounts', (req, res) => {
     
-})
+// })
 
-server.put('/', (req, res) => {
+// router.put('/accounts', (req, res) => {
     
-})
+// })
 
-server.delete('/', (req, res) => {
+// router.delete('/accounts', (req, res) => {
     
-})
+// })
 
 
 
